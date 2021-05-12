@@ -14,6 +14,7 @@ caja_usuario = Entry(ventana, textvar = user, font = ("Helvetica",18),width = "1
 caja_password =Entry(ventana, textvar = passw, font = ("Helvetica",18),width = "14")
 password = Label(ventana,text = "Contraseña", font = ("Helvetica",15))
 login_button = Button(ventana,text = "Ingresar",font = ("Helvetica",15))
+newacc_button = Button(ventana,text = "Ingresar",font = ("Helvetica",15))
 
 usuario.pack()
 usuario.place(x = 100, y = 100)
@@ -25,6 +26,8 @@ caja_password.pack()
 caja_password.place(x = 250, y = 145)
 login_button.pack()
 login_button.place(x = 400,y = 400)
+newacc_button.place(x= 300, y = 300)
+
 
 
 
